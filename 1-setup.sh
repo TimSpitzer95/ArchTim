@@ -81,7 +81,7 @@ PKGS=(
 'breeze-gtk'
 'bridge-utils'
 'btrfs-progs'
-'celluloid' # video players
+#'celluloid' # video players
 'cmatrix'
 'code' # Visual Studio code
 'cronie'
@@ -99,7 +99,7 @@ PKGS=(
 'fuseiso'
 'gamemode'
 'gcc'
-'gimp' # Photo editing
+#'gimp' # Photo editing
 'git'
 'gparted' # partition management
 'gptfdisk'
@@ -109,13 +109,13 @@ PKGS=(
 'gst-plugins-good'
 'gst-plugins-ugly'
 'haveged'
-'htop'
+#'htop'
 'iptables-nft'
-'jdk-openjdk' # Java 17
+#'jdk-openjdk' # Java 17
 'kate'
 'kvantum-qt5'
 'kde-gtk-config'
-'kitty'
+#'kitty'
 'konsole'
 'layer-shell-qt'
 'libnewt'
@@ -124,7 +124,7 @@ PKGS=(
 'linux-firmware'
 'linux-headers'
 'lsof'
-'lutris'
+#'lutris'
 'lzop'
 'm4'
 'make'
@@ -151,16 +151,16 @@ PKGS=(
 'pulseaudio-alsa'
 'pulseaudio-bluetooth'
 'python-pip'
-'qemu'
+#'qemu'
 'rsync'
 'sddm'
 'sddm-kcm'
-'snapper'
+#'snapper'
 'spectacle'
 'steam'
 'sudo'
 'swtpm'
-'synergy'
+#'synergy'
 'systemsettings'
 'terminus-font'
 'traceroute'
@@ -168,9 +168,9 @@ PKGS=(
 'unrar'
 'unzip'
 'usbutils'
-'vim'
-'virt-manager'
-'virt-viewer'
+#'vim'
+#'virt-manager'
+#'virt-viewer'
 'wget'
 'which'
 'wine-gecko'
@@ -180,9 +180,9 @@ PKGS=(
 'xdg-user-dirs'
 'zeroconf-ioslave'
 'zip'
-'zsh'
-'zsh-syntax-highlighting'
-'zsh-autosuggestions'
+#'zsh'
+#'zsh-syntax-highlighting'
+#'zsh-autosuggestions'
 )
 
 for PKG in "${PKGS[@]}"; do
